@@ -1,0 +1,55 @@
+.design-container {
+    background-color: #fff;
+    padding: 1rem;
+}
+
+.design-container .container {
+    padding: 1rem;
+}
+
+.design-container .container h1:first-of-type {
+    border-top: #54565c solid 1px;
+    border-bottom: #54565c solid 1px;
+    margin: 1rem 0;
+    padding: 1rem 0;
+}
+
+.color {
+    width: 5rem;
+    height: 5rem;
+    box-shadow: 2px 2px 6px #808080;
+}
+
+@media (min-width: 480px) {
+    .pattern {
+        width: 50%;
+    }
+}
+
+.pattern {
+    background-color: #DDE1E4;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.pattern .side-box {
+    width: 50%;
+    margin: 1rem;
+}
+
+figure {
+    margin: 1rem;
+    display: inline-block;
+}
+
+#nav-color {
+    background-color: #536878;
+}
+
+#main-color {
+    background-color: #DDE1E4;
+}
+
+#shadow-color {
+    background-color: #808080;
+}
