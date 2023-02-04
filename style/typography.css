@@ -10,6 +10,7 @@ h4,
 h5, 
 h6,
 p,
+blockquote,
 a {
     color: #54565c;
 }
@@ -21,4 +22,8 @@ h1 {
 h2 {
     font-weight: 100;
     font-size: 20px;
+}
+
+blockquote {
+    font-style: italic;
 }
